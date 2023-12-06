@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .msg div{
+            color: red;
+        }
+        .msg div:nth-child(6)
+        {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="password" placeholder="password" onkeyup="fun(this)"/>
+        <div class="msg">
+            <div>Length should be 8</div>
+            <div>Starts with upper case</div>
+            <div>Lower case alphaets</div>
+            <div>digits should be allowed</div>
+            <div>@#$^&*</div>
+            <div>space are not allowed</div>
+        </div>
+    </div>
+    <script>
+        let divref=document.querySelectorAll(".msg div")
+        let fun=(e)=>{
+            let data=e.value
+            if(/^[A-Z]/.test(data))
+            {
+                divref[1].style.color="green"
+            }
+            else{
+                divref[1].style.color="red"
+            }
+            if(data.length>=8)
+            {
+                divref[0].style.color="green"
+            }
+            else{
+                divref[0].style.color="red"
+            }
+        }
+    </script>
+    
+</body>
+</html>

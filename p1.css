@@ -1,0 +1,897 @@
+*{
+    outline: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(201, 201, 183);
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;  
+    background-color: white;
+    border-bottom: 2px solid rgb(232, 232, 240);
+    z-index: 1;
+
+}
+.left h2{
+    margin-left: 20px;
+    color: white;
+    color: black;
+}
+.right{
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.right a{
+    color: black;
+    text-decoration: none;
+    color: black;
+}
+#get{
+    background-color: red;
+    width: 90px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+.travel{
+    width: 100%;
+    height: 80vh;
+    background-color: aqua;
+    background-image: url("2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    z-index: -1;
+}
+.title{
+    font-size: 40px;
+    color:white;
+    margin-left: 20%; 
+}
+.border{
+    width: 60%;
+    height: 15vh;
+    background-color: white;
+    margin-left: 20%;
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.location input{
+    width: 180px;
+    height: 28px;
+    font-size: 13px;
+    border: 1px solid rgb(148, 139, 139);
+}
+::placeholder{
+    font-size: 10px;
+}
+.chech-in input{
+    height: 27px;
+    font-size: 15px;
+    border: 1px solid rgb(148, 139, 139);
+}
+.chech-out input{
+    height: 27px;
+    font-size: 15px;
+    border: 1px solid rgb(148, 139, 139);
+}
+.guest input{
+    height: 27px;
+    font-size: 15px;
+    border: 1px solid rgb(148, 139, 139);
+}
+.search button{
+    width: 80px;
+    height: 30px;
+    background-color:rgb(204, 20, 20);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.popular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.popular h3{
+    font-size: 25px;
+}
+.popular h4{
+    font-size: 18px;
+    color: rgb(48, 47, 47);
+}
+.photos{
+    margin-top: 60px;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.photo{
+    width: 270px;
+    height: 400px;
+    position: relative;
+    cursor: pointer;
+}
+.photo:hover{
+    width:300px;
+    height: 420px;
+   
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.photo h5{
+    position: absolute;
+    top: 95%;
+    left: 10px;
+    color: rgb(219, 213, 213);
+}
+.photo h3{
+    position: absolute;
+    top: 90%;
+    left: 10px;
+    color: rgb(221, 208, 208);
+}
+.explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.explore a{
+    background-color: rgb(138, 7, 7);
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.white{
+    background-color: white;
+}
+.top{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top h2{
+    font-size: 30px;
+    color: black;
+}
+.top h3{
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 200px;
+}
+.lot{
+    width: 300px;
+    height: 150px;
+    box-shadow: 5px 1px 10px  #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.lot a{
+    text-decoration: none;
+    color: red;
+}
+video{
+    width: 100%;
+    height:90vh;
+    border-bottom: 2px solid rgb(150, 143, 143);
+    border-radius: 20px;
+}
+.reco{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 50px;
+    width: 100%;
+    height: 10vh;
+    box-shadow: 10px 5px 10px 0px;
+}
+.reco h2{
+    font-size: 30px;
+    
+}
+.reco h4{
+    font-size: 15px;
+   
+    color: #555;
+}
+.expl{
+    font-size: 16px;
+    width: 130px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 7, 7);
+    border-radius: 20px;
+}
+.expl a{
+    text-decoration: none;
+    color: rgb(240, 235, 235);
+}
+.recon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;    
+}
+.wall{
+    width: 30%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px  #555;
+
+}
+.mald{
+    width: 100%;
+    height:280px; 
+}
+.mald img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+.wall h4{
+    color: #555;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.wall h2{
+    padding-left: 5px;
+}
+.Book{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.a{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(238, 30, 30);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    
+}
+.a a{
+    text-decoration: none;
+    color: rgb(238, 235, 235);
+    margin-right: 0px;
+}
+.mal{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    
+}
+.star{
+    display: flex;
+    justify-content: space-between;
+}
+.st{
+    color: rgb(255, 126, 33);
+    margin-right: 40px;
+    display: flex;
+}
+.st p{
+    color: black;
+}
+.sub{
+    width: 100%;
+    height: 25vh;
+    background-color: white;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sub h1{
+    font-size: 30px;
+}
+.sub h3{
+    font-size: 20px;
+    color: #555;
+}
+.button{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email{
+    width: 30%;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 1px 5px 2px;
+    padding-left: 50px;
+    font-size: 15px;
+
+}
+.button .submit{
+    position: absolute;
+    top: 8px;
+    left: 59%;
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(218, 27, 27);
+    color: white;
+    cursor: pointer;
+}
+::placeholder{
+    font-size: 15px;
+}
+.mail{
+    position: absolute;
+    top: 11.5px;
+    left: 35%;
+    color: red;
+}
+footer{
+    width: 100%;
+    height: 50vh;
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.face i{
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.about h4{
+    margin-top: 20px;
+    cursor: pointer;
+    color: #555;
+}
+.about h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+button{
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: red;
+    width: 130px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(238, 236, 236);
+    cursor: pointer;
+}
+@media only screen and (min-width:200px) and (max-width:500px)
+{
+        .nav{
+            width: 100%;
+            height: 5vh;
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+            position:fixed;  
+            background-color: white;
+            border-bottom: 2px solid rgb(232, 232, 240);
+            z-index: 1;
+        }
+        .left h2{
+            margin-left: 0px;
+            color: white;
+            color: black;
+            font-size: 10px;
+            margin-left: 10px;
+        }
+        .right{
+            width:70%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .right a{
+            color: black;
+            text-decoration: none;
+            font-size: 10px;
+        }
+        #get{
+            background-color: red;
+            width: 60px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 40px;
+        }
+        .travel{
+            width: 100%;
+            height: 40vh;
+            background-color: aqua;
+            background-image: url("2.jpeg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%; 
+            z-index: -1;
+        }
+        .title{
+            font-size: 10px;
+            color:white;
+        }
+        .border{
+            width: 100%;
+            height: 15vh;
+            background-color:white;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+           flex-wrap: wrap;
+           margin-left: 0px;
+           padding-top: 10px;
+        }
+        .location input{
+            width: 140px;
+            height: 20px;
+            font-size: 20px;
+            border: 1px solid rgb(148, 139, 139);
+        }
+        .location h3{
+            font-size: 13px;
+        }
+        .chech-in input{
+            height: 20px;
+            font-size: 15px;
+            border: 1px solid rgb(148, 139, 139);
+        }
+        .chech-in h3{
+            font-size: 13px;
+        }
+        .chech-out input{
+            height: 22px;
+            font-size: 15px;
+            border: 1px solid rgb(148, 139, 139);
+           
+        }
+        .chech-out h3{
+            font-size: 13px;
+        }
+        .guest input{
+            height: 22px;
+            font-size: 15px;
+            border: 1px solid rgb(148, 139, 139);
+            width: 170px;
+        }
+        .guest h3{
+            font-size: 13px;
+        }
+        .search button{
+            width: 50px;
+            height: 25px;
+            background-color:rgb(204, 20, 20);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 10px;
+            margin-bottom: 5px;
+        }
+        .popular{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 4px;
+            padding-top: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+        .popular h3{
+            font-size: 25px;
+        }
+        .popular h4{
+            font-size: 18px;
+            color: rgb(48, 47, 47);
+        }
+        .photos{
+            margin-top: 10px;
+            width: 100%;
+            height: 30vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .photo{
+            width: 40%;
+            height: 150px;
+            position: relative;
+            cursor: pointer;
+        }
+        .photo img{
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+        }
+        .photo h5{
+            position: absolute;
+            top: 80%;
+            left: 10px;
+            color: rgb(219, 213, 213);
+            font-size: 10px;
+        }
+        .photo h3{
+            position: absolute;
+            top: 88%;
+            left: 10px;
+            color: rgb(221, 208, 208);
+            font-size: 12px;
+        }
+        .explore{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40%;
+        }
+        .explore a{
+            background-color: rgb(138, 7, 7);
+            font-size: 13px;
+            text-decoration: none;
+            color: white;
+            width: 130px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+        }
+        .white{
+            background-color: white;
+        }
+        .top{
+            width: 100%;
+            height: 20vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            font-size: 10px;
+        }
+        .top h2{
+            font-size: 20px;
+            color: black;
+        }
+        .top h3{
+            font-size: 15px;
+            color: rgb(63, 63, 63);
+        }
+        .card{
+            display: flex;
+            align-items: center;
+            justify-content:space-evenly;
+            height: 350px;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        .lot{
+            width: 150px;
+            height: 150px;
+            box-shadow: 5px 1px 10px  #555;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .lot a{
+            text-decoration: none;
+            color: red;
+            
+        }
+        .lot p{
+            font-size: 10px;
+        }
+        video{
+            width: 100%;
+            height:90vh;
+            border-bottom: 2px solid rgb(150, 143, 143);
+            border-radius: 20px;
+        }
+        .reco{
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            margin-top: 50px;
+            width: 96%;
+            margin-left: 6px;
+            height: 10vh;
+            box-shadow: 10px 5px 10px 0px;
+        }
+        .reco h2{
+            font-size: 20px;
+            
+        }
+        .reco h4{
+            font-size: 10px;
+           
+            color: #555;
+        }
+        .expl{
+            font-size: 10px;
+            width: 70px;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(245, 7, 7);
+            border-radius: 20px;
+        }
+        .expl a{
+            text-decoration: none;
+            color: rgb(240, 235, 235);
+        }
+        .recon{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 95%;
+                
+        }
+        .wall{
+            width: 40%;
+            height: 33vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-top: 50px;
+            border-radius: 20px;
+            box-shadow: 0px 10px 10px  #555;
+    
+        
+        }
+        .mald{
+            width: 100%;
+            height: 100px; 
+        }
+        .mald img{
+            width: 100%;
+            height: 100%;
+            border-radius: 20px 20px 0px 0px;
+            
+        }
+        .wall h4{
+            color: #555;
+            font-size: 10px;
+            padding-left: px;
+        }
+        .wall h2{
+            padding-left: 5px;
+            font-size: 13px;
+        }
+        .Book{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .a{
+            width: 70px;
+            height: 20px;
+            background-color: rgb(238, 30, 30);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-size: 11px;
+            
+        }
+        .star p{
+            font-size: 10px;
+            
+            
+        }
+        .star i{
+            font-size: 10px;
+            margin-left: -40px;
+            
+        }
+        .s{
+            color: rgb(255, 126, 33);
+            margin-right: 20px;
+            display: flex;
+
+        }
+        .s p{
+            color: black;
+        }
+        .a a{
+            text-decoration: none;
+            color: rgb(238, 235, 235);
+            margin-right: 0px;
+        }
+        .mal{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            flex-wrap: wrap;
+            
+        }
+        .star{
+            display: flex;
+            justify-content: space-between;
+        }
+        .st{
+            color: rgb(255, 126, 33);
+            margin-right: 40px;
+            display: flex;
+        }
+        .st p{
+            color: black;
+        }
+        .sub{
+            width: 100%;
+            height: 25vh;
+            background-color: white;
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .sub h1{
+            font-size: 16px;
+            margin-left: 0px;
+        }
+        .sub h3{
+            font-size: 10px;
+            color: #555;
+            margin-top: 10px;
+        }
+        .button{
+            position: relative;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .email{
+            width: 80%;
+            height: 30px;
+            border-radius: 15px;
+            border: none;
+            box-shadow: 2px 1px 5px 2px;
+            padding-left: 50px;
+            font-size: 13px;
+        
+        }
+        .button .submit{
+            position: absolute;
+            top: 8px;
+            left: 74%;
+            width: 80px;
+            height: 25px;
+            border-radius: 20px;
+            border: none;
+            background-color: rgb(218, 27, 27);
+            color: white;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        ::placeholder{
+            font-size: 14px;
+        }
+        .mail{
+            position: absolute;
+            top: 11.5px;
+            left: 10%;
+            color: red;
+        }
+        footer{
+            width: 100%;
+            height: 50vh;
+            background-color:white;
+            display: flex;
+            justify-content: space-around;
+           
+        }
+        .face i{
+            font-size: 10px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .about h4{
+            margin-top: 10px;
+            cursor: pointer;
+            color: #555;
+            font-size: 12px;
+            
+        }
+        .face h3{
+            font-size: 13px;
+            padding-top: 20px;
+        }
+        .about h2{
+            font-size: 15px;
+            margin-top: 20px;
+        }
+        button{
+            font-size: 10px;
+            margin-top: 20px;
+            background-color: red;
+            width: 70px;
+            height: 25px;
+            border-radius: 20px;
+            border: none;
+            color: rgb(238, 236, 236);
+            cursor: pointer;
+        }
+        .face h2{
+            font-size: 20px;
+            margin-top: 18px;
+        }
+        .face{
+            flex-direction: column;
+            display: flex;
+        }
+        footer{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+    
+
+}
+
+
+
